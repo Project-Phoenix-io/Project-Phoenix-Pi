@@ -1,0 +1,4 @@
+USERNAME = "Test"
+PASSWORD = "test"
+SECRET_KEY = "M4lD6c2vouYtqMtQGO9Q"
+DEBUG = True
