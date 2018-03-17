@@ -19,11 +19,27 @@
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
     <div>
-      こにちわ {{ username }}!
+    
     </div>
     <div>
       <button class="doit">FIRE!</button>
     </div>
+    
+    <div>
+      <form action="/api/pulse" method="post">
+        <label for="iterations">How many times to pulse sprinklers</label> <br>
+        <input name="iterations" type="number"> <br>
+        <label for="timeOn">How many seconds to run sprinklers</label> <br>
+        <input name="timeOn" type="number"> <br>
+        <label for="timeOff">How many seconds to delay in between iterations</label> <br>
+        <input name="timeOff" type="number"> <br>
+        <button type="submit">ACTIVATE</button>
+      </form>
+    </div>
+    
+    
+    
+    
     <div style="margin-top: 3rem">
       <a href="/logout">Logout</a>
     </div>

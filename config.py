@@ -1,4 +1,3 @@
-USERNAME = "Test"
-PASSWORD = "test"
+PASSWORD = 4444
 SECRET_KEY = "M4lD6c2vouYtqMtQGO9Q"
 DEBUG = True
